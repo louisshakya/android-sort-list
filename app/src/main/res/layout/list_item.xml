@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/nameTextViewId"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/nameId"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/nameTextViewId"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List ID: "
+        android:id="@+id/listIdTextViewId"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/nameTextViewId"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List ID"
+        android:id="@+id/listIdId"
+        android:textStyle="italic"
+        android:layout_toRightOf="@id/nameTextViewId"
+        android:layout_below="@id/nameTextViewId"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:id="@+id/idTextViewId"
+        android:textStyle="bold|italic"
+        android:layout_toEndOf="@id/listIdId"
+        android:layout_below="@id/nameId"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/idID"
+        android:layout_toEndOf="@id/idTextViewId"
+        android:layout_below="@id/nameId"
+        android:layout_marginStart="5dp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
