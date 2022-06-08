@@ -29,7 +29,8 @@
             android:layout_height="wrap_content"
             android:text="LIST ID"
             android:id="@+id/listIdButtonId"
-            android:layout_weight="30"/>
+            android:layout_weight="30"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
             android:text="NAME"
             android:id="@+id/nameButtonId"
             android:layout_weight="30"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -45,7 +47,8 @@
             android:text="BOTH"
             android:id="@+id/bothButtonId"
             android:layout_weight="30"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
     </LinearLayout>
 
