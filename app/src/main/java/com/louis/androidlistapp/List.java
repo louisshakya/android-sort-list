@@ -3,7 +3,7 @@ package com.louis.androidlistapp;
 public class List {
     private String name, listId, id;
 
-    public List(String name, String listId, String id) {
+    public List(String id, String listId, String name) {
         this.name = name;
         this.listId = listId;
         this.id = id;
