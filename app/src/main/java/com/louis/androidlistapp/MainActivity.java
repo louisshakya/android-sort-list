@@ -17,7 +17,6 @@ import java.util.Iterator;
 
 public class MainActivity extends AppCompatActivity{
 
-
     private ActivityMainBinding binding;
     private ArrayList<List> newList =new ArrayList<>();
     private boolean isSortByListIDPressed, isSortByNamePressed, isSortByBothPressed = false;
@@ -104,6 +103,7 @@ public class MainActivity extends AppCompatActivity{
         });
     }
 
+    // Fetch data from API
     public void fetchData(){
         FetchData data = new FetchData(this);
         data.getList(new FetchData.VolleyResponseListener() {
